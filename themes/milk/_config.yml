@@ -1,0 +1,44 @@
+favicon: /favicon.ico
+
+post:
+  append:
+    __: post.append
+
+menu:
+  - url: /archives
+    icon: czs-folder-l
+    title: 归档
+  - url: /categories
+    icon: czs-bookmark-l
+    title: 分类
+  - url: /tags
+    icon: czs-tag-l
+    title: 标签
+  - placeholder: true
+  - url: http://baiya.me
+    icon: czs-user-l
+    title: 关于我
+
+sidebar:
+  title: true
+  subtitle: true
+  description: false
+  # avatar: /assets/about/xcatliu_512.png
+  welcome: 想到什么就做什么吧
+  social:
+    - url: https://github.com/shaodahong
+      icon: czs-github
+      title: GitHub
+    - url: mailto:darryshaw@gmail.com
+      icon: czs-message-l
+      title: Gmail
+    - url: /atom.xml
+      icon: czs-rss
+      title: RSS 订阅
+
+disqus_shortname: baiya.me
+
+# Google Analytics
+# google_analytics: UA-45256157-6
+
+# since: 2012
